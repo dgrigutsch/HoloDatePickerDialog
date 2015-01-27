@@ -13,20 +13,11 @@ public class SpinnerDatePickerFragment extends DialogFragment {
 
     private static final DateFormat DATE_FORMAT = new SimpleDateFormat("d/M/y");
     CalendarDatePickerDialog.OnDateSetListener onDateSetListener;
+    SpinnerDatePickerDialog datePickerDialog2;
 
-    public static SpinnerDatePickerFragment newInstance(CalendarDatePickerDialog.OnDateSetListener onDateSetListener) {
-        SpinnerDatePickerFragment fragment = new SpinnerDatePickerFragment();
-        fragment.onDateSetListener = onDateSetListener;
-        return fragment;
-    }
-
-    @NonNull
-    @Override
-    public Dialog onCreateDialog(Bundle savedInstanceState) {
-
+    public SpinnerDatePickerFragment() {
         Calendar cal = Calendar.getInstance();
-
-        SpinnerDatePickerDialog datePickerDialog2 = new SpinnerDatePickerDialog(
+        datePickerDialog2 = new SpinnerDatePickerDialog(
                 getActivity(),
                 new SpinnerDatePickerDialog.OnDateSetListener() {
                     @Override
@@ -38,7 +29,28 @@ public class SpinnerDatePickerFragment extends DialogFragment {
                 cal.get(Calendar.MONTH),
                 cal.get(Calendar.DAY_OF_MONTH)
         );
+    }
 
+    public static SpinnerDatePickerFragment newInstance(CalendarDatePickerDialog.OnDateSetListener onDateSetListener) {
+        SpinnerDatePickerFragment fragment = new SpinnerDatePickerFragment();
+        fragment.onDateSetListener = onDateSetListener;
+        return fragment;
+    }
+
+    @NonNull
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
         return datePickerDialog2;
     }
+
+    public void setYearRange(Calendar startYear, Calendar endYear) {
+       datePickerDialog2.setYearRange(
+               startYear.getTimeInMillis(),
+               endYear.getTimeInMillis());
+    }
+
+    public void setDate(int year, int month, int day) {
+        datePickerDialog2.setDate(year,month,day);
+    }
+
 }

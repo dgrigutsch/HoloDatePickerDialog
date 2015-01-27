@@ -23,6 +23,11 @@ public class SpinnerDatePickerDialog extends AlertDialog implements DialogInterf
     private final DatePicker mDatePicker;
     private boolean mTitleNeedsUpdate = true;
 
+    private static final int DEFAULT_START_YEAR = 1900;
+    private long mMinYear = DEFAULT_START_YEAR;
+    private static final int DEFAULT_END_YEAR = 2100;
+    private long mMaxYear = DEFAULT_END_YEAR;
+
     public SpinnerDatePickerDialog(Context context, int theme, OnDateSetListener callBack, int year, int monthOfYear, int dayOfMonth) {
         super(context, theme);
         mCallBack = callBack;
@@ -116,5 +121,27 @@ public class SpinnerDatePickerDialog extends AlertDialog implements DialogInterf
     public interface OnDateSetListener {
         void onDateSet(DatePicker view, int year, int monthOfYear,
                        int dayOfMonth);
+    }
+
+    public void setYearRange(long startYear, long endYear) {
+        if (endYear <= startYear) {
+            throw new IllegalArgumentException("Year end must be larger than year start");
+        }
+        mMinYear = startYear;
+        mMaxYear = endYear;
+        if (mDatePicker != null) {
+            mDatePicker.setMinDate(mMinYear);
+            mDatePicker.setMaxDate(mMaxYear);
+        }
+    }
+
+    public void setDate(int year, int month, int day) {
+        mCalendar.set(Calendar.YEAR, year);
+        mCalendar.set(Calendar.MONTH, month);
+        mCalendar.set(Calendar.DAY_OF_MONTH, day);
+        if (mDatePicker != null) {
+           updateDate(year,month,day);
+           updateTitle(year,month,day);
+        }
     }
 }

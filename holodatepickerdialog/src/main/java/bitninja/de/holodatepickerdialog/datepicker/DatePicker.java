@@ -253,6 +253,7 @@ public class DatePicker extends FrameLayout {
                      OnDateChangedListener onDateChangedListener) {
         setOnDateChangedListener(onDateChangedListener);
         setDate(year, monthOfYear, dayOfMonth);
+
         updateSpinners();
         updateCalendarView();
     }
