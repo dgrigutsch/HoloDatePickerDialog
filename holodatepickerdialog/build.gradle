@@ -28,3 +28,20 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile 'com.nineoldandroids:library:2.4.0'
 }
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories.mavenDeployer {
+        def deployPath = file(getProperty('aar.deployPath'))
+        repository(url: "file://${deployPath.absolutePath}")
+        pom.project {
+            groupId 'bitninja.de.holodatepickerdialog'
+            artifactId 'holo-datepicker'
+            version "0.1.0"
+        }
+    }
+}
+
+
+
