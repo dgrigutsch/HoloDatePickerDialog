@@ -36,7 +36,7 @@ uploadArchives {
         def deployPath = file(getProperty('aar.deployPath'))
         repository(url: "file://${deployPath.absolutePath}")
         pom.project {
-            groupId 'bitninja.de.holodatepickerdialog'
+            groupId 'bitninja.de'
             artifactId 'holo-datepicker'
             version "0.1.0"
         }
