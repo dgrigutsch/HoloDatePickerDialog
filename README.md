@@ -2,8 +2,11 @@
 Android backport library for Datepicker
 
 ## Screenshots
-<img src="device-2015-01-27-121101.png" alt="Example App" style="width: 100px; height: 155px" />
-<img src="device-2015-01-27-121130.png" alt="Example App" style="width: 100px; height: 155px" />
+<div align="center">
+    <img src="device-2015-01-27-121101.png" alt="Example App" width="45%" />
+    <img height="0" width="8px">
+    <img src="device-2015-01-27-121130.png" alt="Example App" width="45%" />
+</div>
 
 ## Installation
 
