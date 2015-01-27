@@ -1,0 +1,30 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">HoloDatePickerDialog</string>
+    <string name="year_picker_description">Year list</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="select_day">Select month and day</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="select_year">Select year</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> selected</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> deleted</string>
+
+    <string name="done_label">Done</string>
+    <string name="day_picker_description">Month grid of days</string>
+
+    <string name="date_picker_decrement_day_button">Decrease day</string>
+    <string name="date_picker_decrement_month_button">Decrease month</string>
+    <string name="date_picker_decrement_year_button">Decrease year</string>
+    <string name="date_picker_dialog_title">Set date</string>
+    <string name="date_picker_increment_day_button">Increase day</string>
+    <string name="date_picker_increment_month_button">Increase month</string>
+    <string name="date_picker_increment_year_button">Increase year</string>
+    <string name="date_time_done">Done</string>
+    <string name="date_time_set">Set</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="number_picker_decrement_button">Decrease</string>
+    <string name="number_picker_increment_button">Increase</string>
+    <string name="number_picker_increment_scroll_action">Slide up to increase and down to decrease.</string>
+    <string name="number_picker_increment_scroll_mode">%s touch and hold.</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dateCircleColor" format="reference|color" />
+    <attr name="dateDayTextColor" format="reference|color" />
+    <attr name="dateMonthTitleColor" format="reference|color" />
+    <attr name="dateTimePickerActiveTextColor" format="reference|color" />
+    <attr name="dateTimePickerSelectedDateBackground" format="reference|color" />
+    <attr name="dateTimePickerStyle" format="reference" />
+    <attr name="dateTimePickerTextColor" format="reference|color" />
+    <attr name="dateTodayColor" format="reference|color" />
+    <attr name="dateYearSelectorColor" format="reference|color" />
+
+    <attr name="numberPickerStyle" format="reference" />
+    <attr name="numberPickerDownButtonStyle" format="reference" />
+    <attr name="numberPickerInputTextStyle" format="reference" />
+    <attr name="numberPickerUpButtonStyle" format="reference" />
+    <attr name="datePickerStyle" format="reference" />
+
+    <attr name="calendarViewShown" format="boolean" />
+    <attr name="calendarViewStyle" format="reference" />
+
+    <attr name="dateTextAppearance" format="reference" />
+    <attr name="firstDayOfWeek" format="integer" />
+    <attr name="focusedMonthDateColor" format="color|reference" />
+    <attr name="maxDate" format="reference|string" />
+    <attr name="minDate" format="reference|string" />
+    <attr name="selectedDateVerticalBar" format="reference" />
+    <attr name="selectedWeekBackgroundColor" format="color|reference" />
+    <attr name="showWeekNumber" format="boolean" />
+    <attr name="shownWeekCount" format="integer" />
+    <attr name="weekDayTextAppearance" format="reference" />
+    <attr name="weekNumberColor" format="color|reference" />
+    <attr name="weekSeparatorLineColor" format="color|reference" />
+    <attr name="unfocusedMonthDateColor" format="color|reference" />
+    <attr name="endYear" format="integer" />
+    <attr name="forceShownState" format="boolean" />
+    <attr name="spinnersShown" format="boolean" />
+    <attr name="startYear" format="integer" />
+    <attr name="selectionDivider" format="reference" />
+    <attr name="selectionDividerHeight" format="dimension" />
+    <attr name="selectionDividersDistance" format="dimension" />
+    <attr name="virtualButtonPressedDrawable" format="reference" />
+    <attr name="flingable" format="boolean" />
+    <attr name="solidColor" format="color|reference" />
+
+    <declare-styleable name="NumberPicker">
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:layout" />
+        <attr name="android:maxHeight" />
+        <attr name="android:maxWidth" />
+        <attr name="android:minHeight" />
+        <attr name="android:minWidth" />
+        <attr name="android:orientation" />
+        <attr name="flingable" />
+        <attr name="selectionDivider" />
+        <attr name="selectionDividerHeight" />
+        <attr name="selectionDividersDistance" />
+        <attr name="solidColor" />
+        <attr name="virtualButtonPressedDrawable" />
+    </declare-styleable>
+
+    <declare-styleable name="DatePicker">
+        <attr name="calendarViewShown" />
+        <attr name="endYear" />
+        <attr name="forceShownState" />
+        <attr name="layout" />
+        <attr name="maxDate" />
+        <attr name="minDate" />
+        <attr name="spinnersShown" />
+        <attr name="startYear" />
+    </declare-styleable>
+
+    <declare-styleable name="CalendarView">
+        <attr name="dateTextAppearance" />
+        <attr name="firstDayOfWeek" />
+        <attr name="focusedMonthDateColor" />
+        <attr name="maxDate" />
+        <attr name="minDate" />
+        <attr name="selectedDateVerticalBar" />
+        <attr name="selectedWeekBackgroundColor" />
+        <attr name="showWeekNumber" />
+        <attr name="shownWeekCount" />
+        <attr name="unfocusedMonthDateColor" />
+        <attr name="weekDayTextAppearance" />
+        <attr name="weekNumberColor" />
+        <attr name="weekSeparatorLineColor" />
+    </declare-styleable>
+
+    <declare-styleable name="LinearLayout">
+        <attr name="android:baselineAligned" />
+        <attr name="android:baselineAlignedChildIndex" />
+        <attr name="android:divider" />
+        <attr name="android:dividerPadding" />
+        <attr name="android:gravity" />
+        <attr name="android:measureWithLargestChild" />
+        <attr name="android:orientation" />
+        <attr name="android:showDividers" />
+        <attr name="android:weightSum" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimePicker">
+        <attr name="dateCircleColor" />
+        <attr name="dateDayTextColor" />
+        <attr name="dateMonthTitleColor" />
+        <attr name="dateTodayColor" />
+        <attr name="dateYearSelectorColor" />
+    </declare-styleable>
+
+</resources>

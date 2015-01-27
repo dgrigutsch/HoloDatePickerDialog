@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_light_holo">#ff33b5e5</color>
+    <color name="green_light_holo">#ff99cc00</color>
+    <color name="red_light_holo">#ffff4444</color>
+    <color name="blue_dark_holo">#ff0099cc</color>
+    <color name="green_dark_holo">#ff669900</color>
+    <color name="red_dark_holo">#ffcc0000</color>
+    <color name="purple_light_holo">#ffaa66cc</color>
+    <color name="purple_dark_holo">#ff9933cc</color>
+    <color name="orange_light_holo">#ffffbb33</color>
+    <color name="orange_dark_holo">#ffff8800</color>
+    <color name="blue_bright_holo">#ff00ddff</color>
+
+    <color name="date_time_picker_selected_background_dark_holo">#90404040</color>
+    <color name="date_time_picker_center_pointer_color_dark_holo">#90DEDEDE</color>
+    <color name="date_time_picker_circle_color_dark_holo">#90404040</color>
+    <color name="date_time_picker_selected_background_light_holo">#BBDEDEDE</color>
+    <color name="date_time_picker_center_pointer_color_light_holo">#BB303030</color>
+    <color name="date_time_picker_circle_color_light_holo">#BBDEDEDE</color>
+</resources>

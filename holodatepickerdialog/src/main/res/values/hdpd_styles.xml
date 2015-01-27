@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <style name="Holo.Base.Theme" parent="Theme.AppCompat">
+        <item name="dateTimePickerActiveTextColor">@color/date_picker_active_text_holo_dark</item>
+        <item name="dateTimePickerSelectedDateBackground">@color/background_material_dark</item>
+        <item name="dateTimePickerStyle">@style/Holo.DateTimePicker</item>
+        <item name="dateTimePickerTextColor">@color/dim_foreground_material_dark</item>
+        <item name="numberPickerStyle">@style/Holo.NumberPicker</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="Holo" parent="Holo.Base.Theme" />
+
+    <style name="Holo.NumberPicker">
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+        <item name="android:layout">@layout/number_picker_with_selector_wheel</item>
+        <item name="android:maxHeight">180dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">2dip</item>
+        <item name="selectionDividersDistance">48dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="virtualButtonPressedDrawable">?selectableItemBackground</item>
+    </style>
+
+    <style name="Holo.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="Holo.DatePicker">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="calendarViewShown">false</item>
+        <item name="endYear">2100</item>
+        <item name="forceShownState">false</item>
+        <item name="layout">@layout/date_picker_holo</item>
+        <item name="spinnersShown">true</item>
+        <item name="startYear">1900</item>
+    </style>
+
+    <style name="Holo.CalendarView">
+        <item name="dateTextAppearance">?android:textAppearanceSmall</item>
+        <item name="firstDayOfWeek">1</item>
+        <item name="focusedMonthDateColor">#FFFFFFFF</item>
+        <item name="maxDate">12/31/2100</item>
+        <item name="minDate">01/01/1900</item>
+        <item name="selectedDateVerticalBar">@drawable/day_picker_week_view_dayline_holo</item>
+        <item name="selectedWeekBackgroundColor">#330099FF</item>
+        <item name="showWeekNumber">true</item>
+        <item name="shownWeekCount">6</item>
+        <item name="unfocusedMonthDateColor">#66FFFFFF</item>
+        <!--<item name="weekDayTextAppearance">@style/Holo.TextAppearance.CalendarView.WeekDayView</item>-->
+        <item name="weekDayTextAppearance">@style/Base.TextAppearance.AppCompat.Title</item>
+        <item name="weekNumberColor">#33FFFFFF</item>
+        <item name="weekSeparatorLineColor">#19FFFFFF</item>
+    </style>
+
+
+    <style name="Holo.DateTimePicker" parent="Holo">
+        <item name="dateCircleColor">@color/blue_light_holo</item>
+        <item name="dateDayTextColor">@color/primary_text_default_material_light</item>
+        <item name="dateMonthTitleColor">@color/primary_text_default_material_light</item>
+        <item name="dateTodayColor">@color/blue_dark_holo</item>
+        <item name="dateYearSelectorColor">@color/blue_dark_holo</item>
+    </style>
+
+    <style name="Holo.DateTimePicker.Light" parent="Holo.DateTimePicker">
+        <item name="dateCircleColor">@color/blue_dark_holo</item>
+        <item name="dateTodayColor">@color/blue_light_holo</item>
+        <item name="dateYearSelectorColor">@color/blue_light_holo</item>
+    </style>
+
+
+
+
+
+
+
+
+
+</resources>
