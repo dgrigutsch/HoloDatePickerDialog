@@ -14,7 +14,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <net.edarling.de.app.view.datepicker.old.NumberPicker
+        <bitninja.de.holodatepickerdialog.datepicker.base.NumberPicker
             android:id="@+id/month"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,9 +23,9 @@
             android:layout_marginRight="8dip"
             android:layout_marginTop="16dip"
             android:focusable="true"
-            android:focusableInTouchMode="true"></net.edarling.de.app.view.datepicker.old.NumberPicker>
+            android:focusableInTouchMode="true" />
 
-        <net.edarling.de.app.view.datepicker.old.NumberPicker
+        <bitninja.de.holodatepickerdialog.datepicker.base.NumberPicker
             android:id="@+id/day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,9 +34,9 @@
             android:layout_marginRight="8dip"
             android:layout_marginTop="16dip"
             android:focusable="true"
-            android:focusableInTouchMode="true"></net.edarling.de.app.view.datepicker.old.NumberPicker>
+            android:focusableInTouchMode="true" />
 
-        <net.edarling.de.app.view.datepicker.old.NumberPicker
+        <bitninja.de.holodatepickerdialog.datepicker.base.NumberPicker
             android:id="@+id/year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,10 +45,10 @@
             android:layout_marginRight="16dip"
             android:layout_marginTop="16dip"
             android:focusable="true"
-            android:focusableInTouchMode="true"></net.edarling.de.app.view.datepicker.old.NumberPicker>
+            android:focusableInTouchMode="true" />
     </LinearLayout>
 
-    <net.edarling.de.app.view.datepicker.CalendarView
+    <bitninja.de.holodatepickerdialog.datepicker.CalendarView
         android:id="@+id/calendar_view"
         android:layout_width="245dip"
         android:layout_height="280dip"
@@ -56,5 +56,5 @@
         android:layout_marginRight="16dip"
         android:layout_weight="1"
         android:focusable="true"
-        android:focusableInTouchMode="true"></net.edarling.de.app.view.datepicker.CalendarView>
+        android:focusableInTouchMode="true" />
 </LinearLayout>

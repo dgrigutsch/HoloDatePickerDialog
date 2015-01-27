@@ -7,10 +7,9 @@
     <RelativeLayout
         android:id="@+id/day_picker_selected_date_layout"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:background="@color/background_material_dark">
+        android:layout_height="130dp" >
 
-        <net.edarling.de.app.view.datepicker.date.RotateTextView
+        <bitninja.de.holodatepickerdialog.datepicker.date.RotateTextView
             android:id="@+id/date_picker_week"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,11 +22,10 @@
             android:includeFontPadding="false"
             android:singleLine="true"
             android:text="WEEK"
-            android:textColor="?android:textColorSecondary"
             android:textSize="@dimen/date_week_size"
             android:textStyle="bold" />
 
-        <net.edarling.de.app.view.datepicker.AccessibleLinearLayout
+        <bitninja.de.holodatepickerdialog.datepicker.AccessibleLinearLayout
             android:id="@+id/date_picker_month_and_day"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -47,7 +45,6 @@
                 android:gravity="center_horizontal|bottom"
                 android:includeFontPadding="false"
                 android:text="MONTH"
-                android:textColor="@color/primary_text_default_material_dark"
                 android:textSize="@dimen/date_month_size" />
 
             <TextView
@@ -61,11 +58,10 @@
                 android:gravity="center"
                 android:includeFontPadding="false"
                 android:text="15"
-                android:textColor="@color/primary_text_default_material_dark"
                 android:textSize="@dimen/date_day_size" />
-        </net.edarling.de.app.view.datepicker.AccessibleLinearLayout>
+        </bitninja.de.holodatepickerdialog.datepicker.AccessibleLinearLayout>
 
-        <net.edarling.de.app.view.datepicker.AccessibleTextView
+        <bitninja.de.holodatepickerdialog.datepicker.AccessibleTextView
             android:id="@+id/date_picker_year"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -76,7 +72,6 @@
             android:gravity="center"
             android:includeFontPadding="false"
             android:text="2000"
-            android:textColor="@color/primary_text_default_material_dark"
             android:textSize="@dimen/date_year_size" />
     </RelativeLayout>
 

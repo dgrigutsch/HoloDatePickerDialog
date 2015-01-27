@@ -3,6 +3,6 @@
 
     <string name="app_name">HoloDatePickerDialogDemo</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_change_theme">Change Theme</string>
 
 </resources>

@@ -38,6 +38,7 @@ import java.util.ArrayList;
 import bitninja.de.holodatepickerdialog.R;
 
 public class NumberPicker extends LinearLayout {
+
     public static final int FOCUSABLES_ACCESSIBILITY = 0x00000002;
     public static final NumberPicker.Formatter TWO_DIGIT_FORMATTER = new NumberPicker.Formatter() {
         final Object[] mArgs = new Object[1];

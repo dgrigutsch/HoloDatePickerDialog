@@ -8,9 +8,22 @@
         <item name="dateTimePickerTextColor">@color/dim_foreground_material_dark</item>
         <item name="numberPickerStyle">@style/Holo.NumberPicker</item>
         <item name="android:itemTextAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="colorPrimary">@color/background_floating_material_dark</item>
+        <item name="colorPrimaryDark">@color/background_material_light</item>
+        <item name="android:background">@color/background_material_dark</item>
     </style>
 
     <style name="Holo" parent="Holo.Base.Theme" />
+
+    <style name="Holo.Inverse" parent="Holo.Base.Theme" >
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorPrimary">@color/background_material_light</item>
+        <item name="colorPrimaryDark">@color/background_material_dark</item>
+        <item name="android:background">@color/background_material_light</item>
+    </style>
 
     <style name="Holo.NumberPicker">
         <item name="android:fadingEdge">vertical</item>
@@ -27,13 +40,24 @@
         <item name="virtualButtonPressedDrawable">?selectableItemBackground</item>
     </style>
 
+    <style name="Holo.NumberPickerEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+    </style>
+
     <style name="Holo.TextAppearance" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+    </style>
+    <style name="Holo.TextAppearance.Inverse" parent="TextAppearance.AppCompat">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
 
     <style name="Holo.DatePicker">
         <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorPrimaryInverse">#ff231b14</item>
         <item name="calendarViewShown">false</item>
         <item name="endYear">2100</item>
         <item name="forceShownState">false</item>
@@ -54,11 +78,14 @@
         <item name="shownWeekCount">6</item>
         <item name="unfocusedMonthDateColor">#66FFFFFF</item>
         <!--<item name="weekDayTextAppearance">@style/Holo.TextAppearance.CalendarView.WeekDayView</item>-->
-        <item name="weekDayTextAppearance">@style/Base.TextAppearance.AppCompat.Title</item>
         <item name="weekNumberColor">#33FFFFFF</item>
         <item name="weekSeparatorLineColor">#19FFFFFF</item>
+        <item name="android:textColor">?attr/editTextColor</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+
     </style>
 
+    <style name="BB" parent="Base.Theme.AppCompat.Light.Dialog"></style>
 
     <style name="Holo.DateTimePicker" parent="Holo">
         <item name="dateCircleColor">@color/blue_light_holo</item>

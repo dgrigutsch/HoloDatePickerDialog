@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<net.edarling.de.app.view.datepicker.date.TextViewWithCircularIndicator xmlns:android="http://schemas.android.com/apk/res/android"
+<bitninja.de.holodatepickerdialog.datepicker.date.TextViewWithCircularIndicator
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/month_text_view"
     android:layout_width="70dp"
     android:layout_height="70dp"
     android:layout_gravity="center"
     android:gravity="center"
-    android:textColor="@color/primary_text_default_material_dark"
     android:textSize="26sp" />

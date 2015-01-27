@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <net.edarling.de.app.view.datepicker.old.NumberPickerEditText
+    <bitninja.de.holodatepickerdialog.datepicker.base.NumberPickerEditText
         android:id="@+id/numberpicker_input"
-        style="@style/Holo.TextAppearance"
+        style="@style/Holo.NumberPickerEditText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@null"

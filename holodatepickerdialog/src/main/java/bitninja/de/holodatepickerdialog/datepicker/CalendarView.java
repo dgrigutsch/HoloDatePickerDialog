@@ -38,6 +38,7 @@ import java.util.Locale;
 import bitninja.de.holodatepickerdialog.R;
 
 public class CalendarView extends FrameLayout {
+
     private static final int ADJUSTMENT_SCROLL_DURATION = 500;
     private static final String DATE_FORMAT = "MM/dd/yyyy";
     private static final int DAYS_PER_WEEK = 7;
