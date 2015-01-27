@@ -45,8 +45,7 @@ public class SpinnerDatePickerDialog extends AlertDialog implements DialogInterf
         updateTitle(year, monthOfYear, dayOfMonth);
     }
 
-    public SpinnerDatePickerDialog(Context context, OnDateSetListener callBack,
-                                   int year, int monthOfYear, int dayOfMonth) {
+    public SpinnerDatePickerDialog(Context context, OnDateSetListener callBack, int year, int monthOfYear, int dayOfMonth) {
         this(context, 0, callBack, year, monthOfYear, dayOfMonth);
     }
 
