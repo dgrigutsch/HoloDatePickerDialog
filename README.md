@@ -1,8 +1,9 @@
 # HoloDatePickerDialog
 Android backport library for Datepicker
 
-<img src="device-2015-01-27-121101.png" alt="Example App" style="width: 200px; height: 355px" />
-<img src="device-2015-01-27-121130.png" alt="Example App" style="width: 200px; height: 355px" />
+## Screenshots
+<img src="device-2015-01-27-121101.png" alt="Example App" style="width: 100px; height: 155px" />
+<img src="device-2015-01-27-121130.png" alt="Example App" style="width: 100px; height: 155px" />
 
 ## Installation
 
