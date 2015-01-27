@@ -17,7 +17,7 @@ repositories {
 ```
 
 ```gradle
- compile 'bitninja.de:holo-datepicker:0.1.1'
+ compile 'bitninja.de:holo-datepicker:0.1.2'
  ```
  
 ## Usage
